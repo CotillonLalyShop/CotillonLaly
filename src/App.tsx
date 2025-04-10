@@ -81,7 +81,7 @@ function App() {
 
       {/* Featured Products */}
       <div id="productos" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Productos Destacados</h2>
+        <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Productos</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product) => (
             <div key={product.id} className="group relative">
@@ -148,7 +148,7 @@ function App() {
           </div>
           <div className="mt-8 text-center">
             <p className="text-gray-400 text-sm">
-              © 2024 ArteManos. Todos los derechos reservados.
+              © 2024 LalyCreaciones. Todos los derechos reservados.
             </p>
           </div>
         </div>
